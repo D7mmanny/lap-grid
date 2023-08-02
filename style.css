@@ -1,0 +1,236 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: repeat(4,1fr);
+
+}
+.ob1{
+   
+grid-column:1/2;
+grid-row: 1/2;
+}
+
+.list-ob1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.ob2{
+   
+    width: ;
+    height: ;
+    grid-column:2/3;
+    grid-row: 1/2;
+    background-image: url(5bc2f42d9f9d5c2db96e7aa2_Img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.ob3{
+
+    
+    grid-column:3/5;
+    grid-row: 1/2;
+    background-color: #F7F8F9;
+}
+
+.list-ob3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.ob4{
+   
+    grid-column:1/2;
+    grid-row: 2/3;
+    background-image: url(5bc2f42e5b2ebf1f70525e52_Keyboard.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #F05D42;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 10%;
+}
+
+.list-ob4{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+
+.ob5{
+    grid-column:2/3;
+    grid-row: 2/3;
+    background-image: url(5bc4451fac429126a5d9f264_Macintosh-p-500.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-color: #FFFFFF;
+}
+
+.list-ob5{
+    margin: 0;
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.ob6{
+    
+    grid-column:3/4;
+    grid-row: 2/3;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.list-ob6{
+    margin: 0;
+    padding:10%;
+    height: 60%;;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    list-style: none;
+}
+
+.url-ob6{
+   padding: 0; 
+}
+
+.ob7{
+   
+    grid-column:4/5;
+    grid-row: 2/3;
+    background-image: url(5bc2f42de46b0e56a5607bd7_Floppy.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-color: #8F76BC;
+
+}
+
+.list-ob7{
+    height: 100%;
+    margin: 0;
+    padding:0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ob7x{
+   
+    grid-column:4/5;
+    grid-row: 3/4;
+    background-color: #8F76BC;
+}
+
+.list-ob7x{
+    height: 90%;
+    margin: 0;
+    padding-left:20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.ob8{
+    
+    grid-column:1/2;
+    grid-row: 3/4;
+    background-image: url(5bc2f42dccad941a506d145c_Controller.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left;
+    background-color: #F7F8F9;
+}
+
+.list-ob8{
+    height: 100%;
+    margin: 0;
+    padding-left:20%;
+    padding-right: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+    list-style: none;
+}
+
+.ob9{
+    
+    grid-column:2/4;
+    grid-row: 3/4;
+    background-image:url(5bc2e078ccad94811f6d0da3_iPad\ Pro.png) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position:left ;
+    background-color:#93B6B7 ;
+}
+
+.ob9h{
+
+
+}
+
+.ob10{
+    
+    grid-column:1/2;
+    grid-row: 4/5;
+    background-image: url(5bc2f42dac429123bdd925dc_twitter.png);
+    background-size: ;
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-color:#38D5F4;
+}
+.ob11{
+  
+    grid-column:2/2;
+    grid-row: 4/5;
+}
+.ob12{
+    
+    grid-column:3/5;
+    grid-row: 4/5;
+    background-image: url(5bc2f42eccad9470ed6d145d_TV.png);
+    background-size:contain ;
+    background-repeat: no-repeat;
+    background-position: ;
+    background-color:#2C2C2C;
+    
+}
+
