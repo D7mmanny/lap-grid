@@ -203,7 +203,8 @@ grid-row: 1/2;
 }
 
 .ob9h{
-
+text-align: center;
+margin-top: 10%;
 
 }
 
@@ -217,11 +218,25 @@ grid-row: 1/2;
     background-position:center ;
     background-color:#38D5F4;
 }
+.ob10h{
+    text-align: center;
+    margin-top: 10%;
+    
+    }
+
 .ob11{
   
     grid-column:2/2;
     grid-row: 4/5;
 }
+
+.ob11h{
+    text-align: center;
+
+    margin-top: 10%;
+    
+    }
+
 .ob12{
     
     grid-column:3/5;
@@ -233,4 +248,10 @@ grid-row: 1/2;
     background-color:#2C2C2C;
     
 }
+.ob12h{
+    text-align: right;
+    margin-top: 10%;
+    color: #FFFFFF;
+    
+    }
 
